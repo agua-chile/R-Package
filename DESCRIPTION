@@ -1,0 +1,18 @@
+Package: DavisChapter16
+Title: Chapter 16
+Version: 0.0.0.1
+Authors@R: 
+    person("Isaac", "Davis", , "iad44@nau.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This is the assignment for chapter 16 in the class STA 445 at NAU.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
