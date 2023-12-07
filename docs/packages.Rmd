@@ -1,0 +1,27 @@
+```{r setup, include=FALSE}
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(devtools)
+  library(roxygen2)
+  library(testthat)
+  library(usethis)
+})
+```
+```{r}
+Flagstaff_Weather
+```
+```{r}
+Flagstaff_Weather
+date_prcp <- ggplot( Flagstaff_Weather, aes(x=DATE, y=PRCP) ) +  
+  geom_point() 
+date_snow <- ggplot( Flagstaff_Weather, aes(x=DATE, y=SNOW) ) +  
+  geom_point() 
+date_tmax <- ggplot( Flagstaff_Weather, aes(x=DATE, y=TMAX) ) +  
+  geom_point() 
+date_tmin <- ggplot( Flagstaff_Weather, aes(x=DATE, y=TMIN) ) +  
+  geom_point() 
+date_prcp
+date_snow
+date_tmax
+date_tmin
+```
