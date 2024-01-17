@@ -1,2 +1,2 @@
 # R Package
-For STA 445 at NAU, I created an R package that contains World Cup and world population data. In this package is a function that will display a graph of the population of an inputed coutry.
+For STA 445 at NAU, I created an R package to give me experience with creating a package that has data and functions in it.
